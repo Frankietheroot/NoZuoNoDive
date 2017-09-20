@@ -1,0 +1,168 @@
+p {
+-webkit-user-select:none;/*webkit浏览器*/
+-webkit-touch-callout:none; /*系统默认菜单被禁用*/
+-khtml-user-select:none; /*早期浏览器*/
+-moz-user-select:none;/*火狐*/
+-ms-user-select:none;/*IE10*/
+-o-user-select:none
+user-select:none;/*禁止选中*/
+}
+
+input,textarea {
+-webkit-user-select:auto;
+}
+
+table, pre, dl, blockquote, q, ul, ol {
+  margin: 1.2em 0;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+li p {
+  margin: 0.5em 0 !important;
+}
+
+
+ul ul, ul ol, ol ul, ol ol {
+  margin: 0;
+  padding-left: 1em;
+}
+
+ol ol, ul ol {
+  list-style-type: lower-roman;
+}
+
+ul ul ol, ul ol ol, ol ul ol, ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+dl dd {
+  margin: 0 0 1em;
+  padding: 0 1em;
+}
+
+blockquote, q {
+  border-left: 4px solid #FFC107;
+  padding: 0 1em;
+  color: #FFC107;
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.3em 0 1em;
+  padding: 0;
+  font-weight: bold;
+}
+
+h1 {
+font-size: 1.6em;
+background:url(https://mmbiz.qlogo.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2SlpFIZIVDrib1bEnUWuaN9JpO5uxKxicAkOsUVrbmUG4ecCov5NgsX9poDQ/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#424242;
+}
+
+h2 {
+font-size: 0.8em;
+background:url(https://mmbiz.qlogo.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2Slp92ib0gH9eQXF3AnAKJYGRqBjsibZb2X5oEXehntBPtoS1VjajxxgzxVg/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#3e2723;
+}
+
+h3 {
+font-size: 1.4em;
+background:url(https://mmbiz.qlogo.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2SlpUfiaDvfGV6yJ7PFYQiaBmULGWqbUiaCh8FjWfzkn2kmNtQhyHIu3wp2tQ/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#424242;
+}
+
+h4 {
+font-size: 1em;
+background:url(https://mmbiz.qpic.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2SlptkYCIxKgC2WK28RRDQhy2Zq0EJ8sK8RNhBOs6Odx9gTIKxymv3I1xw/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#424242;
+}
+
+h5 {
+font-size: 1em;
+background:url(https://mmbiz.qpic.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2SlpcryXOtLKAtHNA49qbARJV7NGOMFIb3d7Iicicn67ric0GW3uba6xaCJog/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#424242;
+}
+
+h6 {
+font-size: 1em;
+background:url(https://mmbiz.qpic.cn/mmbiz_png/xw79n3Omg87bl4D4icPDY8oxYico3ia2SlpqzZrT5Fyz2dXcc1DpoM4P7mMOQYtLMgbTx7UHRmcCqkWdGcHQkw38A/0?wx_fmt=png);
+background-size:contain;
+background-repeat:no-repeat;
+padding-left:2em;
+color:#424242;
+}
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+}
+
+tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table tr th, table tr td {
+  font-size: 1em;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+table tr th {
+ font-weight: bold;
+  background-color: #F0F0F0;
+}
