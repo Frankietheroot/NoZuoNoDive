@@ -126,7 +126,8 @@ dl dd {
 blockquote, q {
   border-left: 4px solid #FFC107;
   padding: 0 1em;
-  color: #FFC107;
+  font-size: 0.8em;
+  color: #494949;
   quotes: none;
 }
 
